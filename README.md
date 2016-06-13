@@ -94,21 +94,25 @@ The four plots that you will need to construct are shown below.
 
 ### Plot 1
 
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+Open a PNG file and write a Histogram Graph for Global_active_power with the
+required Global Active Power (kilowatts) and "Frequency" labels as requested. 
+Once the graph is plotted, close the Graphics device. 
 
 
 ### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+#Draw a Basic Plot with required "Time" and ""Global Active Power (kilowatts)" variables. 
+Once the plot is drawn with the required fields, close the graphics device with dev.off()  
 
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+### Draw a plot3 with basic Plot for Sub_metering_x against "Time" Function. Give a Color code to the Sub_metering_2 and Sub_metering_3 variables. 
+### Also draw a small legend box on TopRight helping the user see different colors associated with different data columns.
+## Close the device.
 
 
 ### Plot 4
-
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+### Set a 2x2 matrix and then add graph to each row/column. Draw a Legend Box giving explanation of each graph. 
+### Draw 4 Graphs for Sub_metering_x v/s Time, and Voltage v/s Time using Plot Function.  
+##  Call Device Off to close once written to a Graph. 
 
