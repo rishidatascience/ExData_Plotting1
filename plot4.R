@@ -14,7 +14,7 @@ plot4 <- function(data=NULL) {
     plot(dF$Time, dF$Sub_metering_1, xlab="", ylab="Energy sub metering", type="l", col="black")
     lines(dF$Time, dF$Sub_metering_2, col="red")
     lines(dF$Time, dF$Sub_metering_3, col="blue")
-    legend("topright", col=c("black", "red", "blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),lty=1,box.lwd=0)
+    legend("topright", col=c("black", "red", "blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),lty=1,box.lwd=0, cex=0.5)
     plot(dF$Time, dF$Global_reactive_power, type="n", xlab="datetime", ylab="Global_reactive_power")
     lines(dF$Time, dF$Global_reactive_power)
     
